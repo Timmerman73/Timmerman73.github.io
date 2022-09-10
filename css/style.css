@@ -36,7 +36,7 @@ img {
 	width: 940px;
 }
 #header div a.logo {
-	background: url(../images/dogs.jpg) no-repeat center top;
+	background: url(../images/electric.jpg) no-repeat center top;
 	display: block;
 	height: 306px;
 	text-indent: -99999px;
@@ -91,7 +91,7 @@ img {
 	width: 100%;
 }
 #body div#background {
-	background: #FFFFFF url(../images/bg-content.jpg) no-repeat center bottom;
+	background: #FFFFFF url(../images/pit.jpg) no-repeat center bottom;
 	min-height: 420px;
 	padding: 0;
 	width: auto;
