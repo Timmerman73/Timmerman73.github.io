@@ -1,170 +1,102 @@
-<!DOCTYPE html> 
-<html lang="nl">
-	<head>
-		<link rel="stylesheet" type="text/css" href="Styles/index.css">
-		<script src="Js/StickNavbar.js"></script>
-		<title> Scouting Woerden </title>
-		<link rel="icon" href="images/logo-green.png">
-	</head>
-	<body>
-		<!Nagivatiesysteem>
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Puppy Website Template</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="header">
 		<div>
-			<!afbeeldingen boven navbar>
-			<img src="images/header/1.jpg" class="headerimg" align="center">
-			<img src="images/header/2.jpg" class="headerimg" align="center">
-			<img src="images/header/3.jpg" class="headerimg" align="center">
-			<img src="images/header/4.jpg" class="headerimg" align="center">
-			<img src="images/header/5.jpg" class="headerimg" align="center">
+			<a href="index.html" class="logo">PugSureWoi</a>
+			<ul>
+				<li class="current">
+					<a class="home" href="index.html">Home</a>
+				</li>
+				<li>
+					<a class="about" href="about.html">About</a>
+				</li>
+				<li>
+					<a class="blog" href="blog.html">Blog</a>
+				</li>
+				<li>
+					<a class="services" href="services.html">Services</a>
+				</li>
+			</ul>
 		</div>
-			<script> //De code om de header te laten werken.
-				var myIndex = 0;
-				headerfunction();
-
-				function headerfunction() {
-				  var i;
-				  var x = document.getElementsByClassName("headerimg");
-				  for (i = 0; i < x.length; i++) {
-					x[i].style.display = "none";  
-				  }
-				  myIndex++;
-				  if (myIndex > x.length) {myIndex = 1}    
-				  x[myIndex-1].style.display = "block";  
-				  setTimeout(headerfunction, 5000); // verander afbeelding elke 5 seconden
-				}
-			</script>
-			<div id="navbar" >
-			<img src="images/logo.png" height=45 width=45 align="left" id="pad5">
-				<a href="index.html">Home</a>
-				<!navigatieknoppen>
-				<div class="dropdown">
-					<button class="dropbtn">Spelonderdelen 
-					<i class="fa fa-caret-down"></i>
-					</button>
-						<div class="dropdown-content">
-						  <a href="bevers.html">Bevers/Paradijsvogels</a>
-						  <a href="welpen.html">Welpen/Esta's/Dolfijnen</a>
-						  <a href="verkenners.html">Verkenners</a>
-						  <a href="explorers.html">Explorers</a>
-						</div>
-				</div> 
-				<div class="dropdown">
-					<button class="dropbtn">Algemeen 
-					<i class="fa fa-caret-down"></i>
-					</button>
-						<div class="dropdown-content">
-						  <a href=plaatsingkosten.html>Plaatsing/Kosten</a>
-						  <a href="contact.html">Contact</a>
-						</div>
-				</div> 
-				<p align="right" id="naam"> Tim van der Lee</p>
-			</div>
-			<!hoofdtekst op de pagina>
-			<div id="Main" align="left">
-				<div id="pad5">
-					<section>
-						<br>
-						<br>
-						 <header id="title"> Welkom op de homepage van Scouting Woerden</header> <!Grote text>
-						<br>
-						<font size="+1"> <b>Over de Albert Schweitzergroep </b></font> <br> <br>
-						<b> Ontstaan van de naam</b> <br>
-						<img src="images/boerderij2.png" title="De huidige scoutingboerderij" alt="boerderij.png" id="pad10" align="right" height=237 width=400>
-						Het toenmalige bestuur heeft een levendige discussie gehouden over de naamgeving o.a. Herman van de Woerdengroep (de moordenaar van Floris de Vijfde) of Willem de Zwijgergroep (daar waren er al zoveel van) etc.
-						Er is gekozen voor de naam "Albert Schweitzergroep".
-						In de jaren 60 was Albert Schweitzer (zendingsarts in Afrika) een algemeen gewaardeerde persoon. Wat hem bijzonder maakte dat hij zeer geboeid was voor alles wat leefde. Van hem is de uitspraak: "Eerbied voor al wat leeft". 
-						<br><br>
-						<b> Oprichting en locatie </b> <br>
-						De Albert Schweitzergroep is in 1966 opgericht in Woerden. Na jaren van verhuizen zijn we al geruime tijd neergestreken aan de Kromwijkerdijk alwaar we gegroeid zijn tot onze huidige omvang. De complete vereniging bestaat uit ongeveer 545 (Mei 2017) personen en is daarmee een van de grotere in Nederland. 
-						Gelegen op een groenstrook, ingeklemd tussen een Boerenlandweg en een kantorenpark, hebben we hier, aan de rand van Woerden, de ruimte die we wensen. 
-						<br><br>
-						<b> Wat willen wij? </b> <br>
-						Wij zijn een vereniging, die jeugd en jongeren plezier en ontwikkeling biedt met een uniek en eigentijds scoutingprogramma. Als vrijwilliger voel je je daar waardevol. Je levert kwaliteit om die ontwikkeling van jeugd en jongeren te stimuleren. Dat doe je met plezier en vriendschap.
-						<br><br>
-						Samengevat. De Albert Schweitzergroep wil zich actief inzetten voor de groei van kinderen én onze leiding in een veilige omgeving. De groep wil het accent leggen op de ontwikkeling van vaardigheden om in teamverband leuke / leerzame activiteiten te verrichten of voor te bereiden.
-						<br><br>
-						<b> Bestuur</b><br>
-						De groep heeft een groepsbestuur bestaande uit een voorzitter, secretaris, penningmeester, groepsbegeleider en bestuurslid Beheer & Onderhoud. 
-						<br><br>
-						Het groepsbestuur zorgt ervoor dat het scoutingspel gespeeld kan worden. Het groepsbestuur bereidt de vergadering van de groepsraad voor, geeft uitvoering aan en controleert op de uitvoering van de door de groepsraad genomen besluiten. Ook vertegenwoordigt het groepsbestuur de groep naar buiten.
-						<br><br>
-						Het Groepsbestuur draagt zorg over de materiële zaken binnen onze groep. Begroting en jaarverslag worden opgemaakt en ter goedkeuring voorgelegd aan de Groepsraad.
-						Onder verantwoording van het Groepsbestuur vallen ook zaken als verhuur, onderhoud, veiligheid en arbo etc.
-						<br><br>
-						<b>Verzekeringen</b><br>
-						Gelukkig heeft onze scoutinggroep nog nooit ernstige ongelukken meegemaakt, maar …..ze zitten wel in een klein hoekje!
-						Als iemand door eigen schuld of opzet schade veroorzaakt aan een ander, moet hij of zij in principe zelf voor de kosten opdraaien. De benadeelde kan in dit geval de veroorzaker aansprakelijk stellen.
-						Er zijn natuurlijk situaties te bedenken waar een ander niet aansprakelijk voor is, bijvoorbeeld letsel dat tijdens een potje voetballen ontstaat. De benadeelde kan dan wel een claim indienen bij de ongevallenverzekering van de groep.
-						<br><br>
-						Via Scouting Nederland is uw zoon/ dochter collectief verzekerd tegen ongevallen en wettelijke aansprakelijkheid tijdens alle activiteiten van de groep en haar leden.
-						De verzekering voorziet in een uitkering ingeval van overlijden, blijvende invaliditeit of geneeskundige kosten ten gevolge van een ongeval, alsmede schade ten gevolge van beschadiging, vernietiging of verlies van zaken, inclusief vervolgschade.
-						<br><br>
-						Let op: dit is een aanvullende verzekering, die pas in werking treedt als de schade elders niet verhaalbaar blijkt te zijn (het zogenaamde secundaire karakter)! Niet leden, bijvoorbeeld belangstellenden op een open dag, vallen niet onder deze verzekering. Wel weer onder de verzekering vallen bijvoorbeeld kookstafleden en alle anderen die door de scoutinggroep gevraagd zijn voor bepaalde scoutingactiviteiten. De collectieve aansprakelijkheid-verzekering dekt niet:
-						* Schade aan eigendommen van de scoutinggroep
-						* Schade veroorzaakt door of met een motorrijtuig
-						* Schade die door de verzekerde met opzet is veroorzaakt
-						* Aansprakelijkheid van leden en vrijwilligers, tenzij er geen andere dekking bestaat.
-						<br><br>
-						De geneeskundige kosten en de aansprakelijkheidskosten volgens de W.A.-verzekering worden alléén vergoed indien geen aanspraak op vergoeding krachtens enige andere verzekering of voorziening kan worden gemaakt !! (Het zgn. secundair karakter)
-						De voorwaarden en dekkingsgebied van deze verzekering zijn in te zien bij de penningmeester. Als bestuur gaan wij er vanuit dat een ieder die rijdt voor de scoutinggroep een inzittendenverzekering heeft afgesloten! Kijkt u voor de zekerheid uw polis er even op na. Als groep hebben we geen aanvullende autoverzekering afgesloten, daar de kosten zeer hoog zijn, terwijl halen en brengen, alsmede aanhangwagenvervoer niet gedekt zijn.
-						Bestuurders van de Albert Schweitzergroep zijn niet persoonlijk aansprakelijk, behalve door het plegen van een onrechtmatige daad, wanprestatie en/of misleiding. Het bestuur is als collectief wel aansprakelijk als door onbehoorlijk besturen schade is ontstaan.
-					</section>
+	</div>
+	<div id="body">
+		<div id="background">
+			<div>
+				<div>
+					<div>
+						<h1>&#8220;This template is FREE&#8221;.</h1>
+						<p>
+							This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+						</p>
+					</div>
 				</div>
-				
-				
-			
-			
-			
 			</div>
-			<!De bewegende gallerij!>
-			<div class="Gallery" align="right">
-				<img class="SlideShow" src="images/gallery/1.jpg" align="left" width=500 height=332>
-				<img class="SlideShow" src="images/gallery/2.jpg" align="left" width=500 height=332>
-				<img class="SlideShow" src="images/gallery/3.jpg" align="left" width=500 height=332>
-				<img class="SlideShow" src="images/gallery/4.jpg" align="left" width=500 height=332>
-			</div>
-			<script> //De code om de gallerij te laten werken.
-				var myIndex = 0;
-				carousel();
-
-				function carousel() {
-				  var i;
-				  var x = document.getElementsByClassName("SlideShow");
-				  for (i = 0; i < x.length; i++) {
-					x[i].style.display = "none";  
-				  }
-				  myIndex++;
-				  if (myIndex > x.length) {myIndex = 1}    
-				  x[myIndex-1].style.display = "block";  
-				  setTimeout(carousel, 5000); // verander afbeelding elke 5 sec
-				}
-			</script>
-			
-			<div id="jubelkampvideo" > 
-			<!De video over jubelkamp.> 
-		
-				<! De embed voor youtube omdat anders het bestand te groot was>
-				<iframe id="b-radius" width="560" height="315" src="https://www.youtube.com/embed/cSaPxxAKqcI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<br>
-				<footer id="pad10">
-					<b id="bigtext">Terugblikken Jubelkamp (2016)</b>  
-					
-						<a id="groepnaam" href="https://www.youtube.com/watch?v=aQp6gESZi4w&list=PL0GgVN3eM-R30FfmZtgiEH7I4t66t7weH&ab_channel=ScoWoTV">Afspeellijst scheepsjournalen</a> <br>
-						Afleveringen <!Link naar alle afleveringen>
-						<nav>
-							<a href="https://www.youtube.com/watch?v=aQp6gESZi4w&list=PL0GgVN3eM-R30FfmZtgiEH7I4t66t7weH&ab_channel=ScoWoTV" id="groepnaam">1</a> |
-							<a href="https://www.youtube.com/watch?v=tlNbpafH3oM&list=PL0GgVN3eM-R30FfmZtgiEH7I4t66t7weH&index=2&ab_channel=ScoWoTV" id="groepnaam">2</a> |
-							<a href="https://www.youtube.com/watch?v=bOVhkMMpj9g&list=PL0GgVN3eM-R30FfmZtgiEH7I4t66t7weH&index=3&ab_channel=ScoWoTV" id="groepnaam">3</a> |
-							<a href="https://www.youtube.com/watch?v=8p3_L86O2E0&list=PL0GgVN3eM-R30FfmZtgiEH7I4t66t7weH&index=4&ab_channel=ScoWoTV" id="groepnaam">4</a> |
-							<a href="https://www.youtube.com/watch?v=3s7HwDR-sk4&list=PL0GgVN3eM-R30FfmZtgiEH7I4t66t7weH&index=5&ab_channel=ScoWoTV" id="groepnaam">5</a> |
-							<a href="https://www.youtube.com/watch?v=LklhGkDtMDo&list=PL0GgVN3eM-R30FfmZtgiEH7I4t66t7weH&index=6&ab_channel=ScoWoTV" id="groepnaam">6</a>
-						</nav>
-				</footer>
-			</div>
-			<!Twitter tijdlijn Embed>
-			<div align="right" id="twitter-timeline">
-				<a class="twitter-timeline" data-width="520" data-height="425" data-dnt="true" href="https://twitter.com/ScoutingWoerden?ref_src=twsrc%5Etfw">Tweets by ScoutingWoerden</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-			</div>
-
-	</body>
+		</div>
+		<div id="section">
+			<ul>
+				<li>
+					<a href="blog.html"><img src="images/dog2.jpg" alt="Image"></a>
+					<div>
+						<p>
+							This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
+						</p>
+						<a href="blog.html" class="readmore">Read more &gt;&gt;</a>
+					</div>
+				</li>
+				<li>
+					<a href="blog.html"><img src="images/dog2.jpg" alt="Image"></a>
+					<div>
+						<p>
+							This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
+						</p>
+						<a href="blog.html" class="readmore">Read more &gt;&gt;</a>
+					</div>
+				</li>
+				<li>
+					<a href="blog.html"><img src="images/dog2.jpg" alt="Image"></a>
+					<div>
+						<p>
+							This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
+						</p>
+						<a href="blog.html" class="readmore">Read more &gt;&gt;</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="logo">
+			<a href="index.html"><img src="images/logo.jpg" alt="Logo"></a>
+		</div>
+		<ul>
+			<li>
+				<a href="index.html">Home</a>
+			</li>
+			<li>
+				<a href="about.html">About</a>
+			</li>
+			<li>
+				<a href="blog.html">Blog</a>
+			</li>
+			<li>
+				<a href="services.html">Services</a>
+			</li>
+		</ul>
+		<p>
+			&copy; Copyright &copy; 2023. Company name all rights reserved
+		</p>
+		<div id="connect">
+			<a href="http://freewebsitetemplates.com/go/facebook/" target="_blank" id="facebook">Facebook</a>
+			<a href="http://freewebsitetemplates.com/go/twitter/" target="_blank" id="twitter">Twitter</a>
+			<a href="http://freewebsitetemplates.com/go/googleplus/" target="_blank" id="googleplus">Google&#43;</a>
+		</div>
+	</div>
+</body>
 </html>
-			
