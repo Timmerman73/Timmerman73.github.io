@@ -56,7 +56,6 @@ img {
 #header div ul li.current a,
 #header div ul li.current a:hover,
 #header div ul li a:hover {
-	background: url(../images/menu-selected.png) no-repeat right center;
 	color: #424141;
 }
 #header div ul li a:hover {
@@ -87,7 +86,6 @@ img {
 	padding: 0 28px 0 140px;
 }
 #body {
-	background: #cac8c8 url(../images/bg-content2.png) repeat-x left top;
 	width: 100%;
 }
 #body div#background {
