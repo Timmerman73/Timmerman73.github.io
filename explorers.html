@@ -1,0 +1,110 @@
+<!DOCTYPE html> 
+<html lang="nl">
+	<head>
+		<link rel="stylesheet" type="text/css" href="Styles/index.css">
+		<script src="Js/StickNavbar.js"></script>
+		<title> Scouting Woerden </title>
+		<link rel="icon" href="images/logo-green.png">
+	</head>
+	<body>
+		<!Nagivatiesysteem>
+
+		<div>
+		<!afbeeldingen boven navbar>
+			<img src="images/header/1.jpg" class="headerimg" align="center">
+			<img src="images/header/2.jpg" class="headerimg" align="center">
+			<img src="images/header/3.jpg" class="headerimg" align="center">
+			<img src="images/header/4.jpg" class="headerimg" align="center">
+			<img src="images/header/5.jpg" class="headerimg" align="center">
+		</div>
+			<script> //De code om de header te laten werken.
+				var myIndex = 0;
+				headerfunction();
+
+				function headerfunction() {
+				  var i;
+				  var x = document.getElementsByClassName("headerimg");
+				  for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";  
+				  }
+				  myIndex++;
+				  if (myIndex > x.length) {myIndex = 1}    
+				  x[myIndex-1].style.display = "block";  
+				  setTimeout(headerfunction, 5000); // verander afbeelding elke 5 seconden
+				}
+			</script>
+			<div id="navbar" >
+			<img src="images/logo.png" height=45 width=45 align="left" id="pad5">
+				<a href="index.html">Home</a>
+				<!navigatieknoppen>
+				<div class="dropdown">
+					<button class="dropbtn">Spelonderdelen 
+					<i class="fa fa-caret-down"></i>
+					</button>
+						<div class="dropdown-content">
+						  <a href="bevers.html">Bevers/Paradijsvogels</a>
+						  <a href="welpen.html">Welpen/Esta's/Dolfijnen</a>
+						  <a href="verkenners.html">Verkenners</a>
+						  <a href="explorers.html">Explorers</a>
+						</div>
+				</div> 
+				<div class="dropdown">
+					<button class="dropbtn">Algemeen 
+					<i class="fa fa-caret-down"></i>
+					</button>
+						<div class="dropdown-content">
+						  <a href="plaatsingkosten.html">Plaatsing/Kosten</a>
+						  <a href="contact.html">Contact</a>
+						</div>
+				</div> 
+				<p align="right" id="naam"> Tim van der Lee</p>
+			</div>
+		<!Einde navigatiesysteem>
+		<!hoofdelement>
+			<div id="Main">
+				<div id="pad10">
+					<section>
+						<header id="title">Explorers (15 tot 18 jaar)</header>
+						<br><br>
+						<b>Wat voor activiteiten doen de Explorers? </b>
+						De Explorers is een speltak voor leden van 15 tot 18 jaar die begeleid worden door begeleiders. 
+						Zij helpen de leden om goede leiding te worden (of zijn) en natuurlijk een leuke en uitdagende explo tijd te hebben. 
+						<br><br>
+						De leden bij de Explorers zijn zelfsturend, dat wil zeggen, ze hebben een eigen bestuur waarmee zij zelf verantwoordelijk zijn voor o.a. (weekend)kampen en financiële bijdrages uit de kas voor opkomsten enz. 
+						Elke week verzinnen twee tot drie leden de opkomst en communiceren dit met de daarvoor aangewezen begeleiding voor eventuele feedback. 
+						Ook tijdens de opkomsten verzorgen de leden de spellen en activiteiten volledig zelf. 
+						<br><br>
+						<b>Waar en hoe laat vinden de opkomsten plaats? </b><br>
+						De opkomsten vinden vrijwel altijd plaats op de scoutingboerderij. 
+						<br><br>
+						<b>Tijden:</b>
+						<! de tijdentabel>
+						<table id="kostentabel">
+								<tr id="tablehead">
+									<th>Naam groep</th>
+									<th>Dag</th>
+									<th>Tijden</th>
+								</tr>
+								<tr>
+									<th>Maandag explorers</th>
+									<th>maandagavond</th>
+									<th>19:00 - 21:00</th>
+								</tr>
+								<tr>
+									<th>Vrijdag explorers</th>
+									<th>vrijdagavond</th>
+									<th>20:00 - 22:00</th>
+								</tr>
+							</table>
+							<br><br>
+							<b>Hoe groot is de groep></b> <br>
+							Er zitten circa 20-30 leden in een groep, zowel jongens als meiden 
+							<br><br>
+							<b> Wat zijn de kosten?</b> <br>
+							<a id="groepnaam" href="plaatsingkosten.html#kosten">Zie kosten</a>
+					</section>
+				</div>
+			</div>
+	</body>
+</html>
+			

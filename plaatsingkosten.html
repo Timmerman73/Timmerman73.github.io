@@ -1,0 +1,189 @@
+<!DOCTYPE html> 
+<html lang="nl">
+	<head>
+		<link rel="stylesheet" type="text/css" href="Styles/index.css">
+		<script src="Js/StickNavbar.js"></script>
+		<title> Scouting Woerden </title>
+		<link rel="icon" href="images/logo-green.png">
+	</head>
+	<body>
+		<!Nagivatiesysteem>
+
+		<div>
+		<!afbeeldingen boven navbar>
+			<img src="images/header/1.jpg" class="headerimg" align="center">
+			<img src="images/header/2.jpg" class="headerimg" align="center">
+			<img src="images/header/3.jpg" class="headerimg" align="center">
+			<img src="images/header/4.jpg" class="headerimg" align="center">
+			<img src="images/header/5.jpg" class="headerimg" align="center">
+		</div>
+			<script> //De code om de header te laten werken.
+				var myIndex = 0;
+				headerfunction();
+
+				function headerfunction() {
+				  var i;
+				  var x = document.getElementsByClassName("headerimg");
+				  for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";  
+				  }
+				  myIndex++;
+				  if (myIndex > x.length) {myIndex = 1}    
+				  x[myIndex-1].style.display = "block";  
+				  setTimeout(headerfunction, 5000); // verander afbeelding elke 5 seconden
+				}
+			</script>
+			<div id="navbar" >
+			<img src="images/logo.png" height=45 width=45 align="left" id="pad5">
+				<a href="index.html">Home</a>
+				<!navigatieknoppen>
+				<div class="dropdown">
+					<button class="dropbtn">Spelonderdelen 
+					<i class="fa fa-caret-down"></i>
+					</button>
+						<div class="dropdown-content">
+						  <a href="bevers.html">Bevers/Paradijsvogels</a>
+						  <a href="welpen.html">Welpen/Esta's/Dolfijnen</a>
+						  <a href="verkenners.html">Verkenners</a>
+						  <a href="explorers.html">Explorers</a>
+						</div>
+				</div> 
+				<div class="dropdown">
+					<button class="dropbtn">Algemeen 
+					<i class="fa fa-caret-down"></i>
+					</button>
+						<div class="dropdown-content">
+						  <a href="plaatsingkosten.html">Plaatsing/Kosten</a>
+						  <a href="contact.html">Contact</a>
+						</div>
+				</div> 
+				<p align="right" id="naam"> Tim van der Lee</p>
+			</div>
+		<!Einde navigatiesysteem>
+		<!hoofdelement>
+		<div id="Main" align="left">
+			<div id="pad5">
+				<section>
+					<font size="+4">Plaatsingslijst en tijden</font>
+						<section>
+						Binnen onze groep werken we met plaatsingslijsten. U kunt uw kind opgeven voor de plaatsingslijst via dit formulier. <br>
+						Inschrijven kan vanaf de geboorte.<br><br>
+
+						Elk jaar zijn er 2 plaatsingsmomenten waarop we kinderen van de lijst aannemen: maart en september. We kijken hierbij naar de inschrijfdatum.
+						Plaatsingstijden:<br><br>
+
+						0-4 jaar: er zijn geen onderdelen voor deze leeftijd. Uw kind blijft op de plaatsingslijst staan.<br>
+						5-6 jaar: we hopen het eerste of tweede plaatsingsmoment na nu, uw kind een plaats aan te kunnen bieden bij een van onze Bever onderdelen.<br>
+						7-11 jaar: we hopen uw kind het eerstvolgende plaatsingsmoment een plaats aan te kunnen bieden bij een van onze Welpen, Esta’s of Dolfijnen onderdelen <br>
+						11 jaar en ouder: wij proberen uw kind direct te plaatsen.<br><br>
+
+						In bijzondere gevallen kan afgeweken worden van de volgorde van plaatsing op de plaatsingslijst.<br>
+						Als wij plaats hebben wordt u per mail benaderd.
+					</section>
+					<br><br>
+				<font size="+4"> Meekijken </font>
+					<section>
+					Veel kinderen willen eerst meekijken of scouting wel wat voor hen is. In januari en mei/juni is er daarom de gelegenheid om bij verschillende onderdelen mee te kijken. <br>
+					Alle kinderen van 7 jaar en ouder die op de plaatsingslijst staan, krijgen hier automatisch een uitnodiging voor.
+					Voor kinderen jonger dan 7 jaar, die op de plaatsingslijst staan, is er helaas geen mogelijkheid tot meekijken. <br>
+					We hebben er om organisatorische redenen voor gekozen om het meedraaien te beperken tot 2 vaste momenten per jaar. <br>
+					<br>
+					Als u een plaats heeft geaccepteerd, kan uw kind de eerste twee weken na plaatsing gratis meedraaien voordat u contributie verschuldigd bent.
+					</section>
+					<br><br>
+				<font size="+4"> Kosten </font>
+					<section>
+						<a name="kosten"></a>
+						<!tabel over alle groepen>
+						<table id="kostentabel">
+
+							<tr id="tablehead">
+								<th>Onderdeel</th>
+								<th>Contributie per Kwartaal</th>
+								<th>Weekend Kamp (Bij benadering)</th>
+								<th>Zomerkamp (Bij benadering)</th>
+								<th>Overige kosten*</th>
+							</tr>
+							<tr>
+								<th id="groepnaam"><a id="groepnaam" href="bevers.html">Bevers</a></th>
+								<th>28,-</th>
+								<th>2x 12,50,-</th>
+								<th>25,-</th>
+								<th></th>
+							</tr>
+							<tr>
+								<th id="groepnaam"><a id="groepnaam" href="welpen.html">Dolfijnen</a></th>
+								<th>28,-</th>
+								<th>3x 17,50,-</th>
+								<th>125,-</th>
+								<th>Zwemvest (20,-)</th>
+							</tr>
+							<tr>
+								<th id="groepnaam"><a id="groepnaam" href="welpen.html">Esta's</a></th>
+								<th>28,-</th>
+								<th>3x 17,50,-</th>
+								<th>125,-</th>
+								<th></th>
+							</tr>
+							<tr>
+								<th id="groepnaam"><a id="groepnaam" href="welpen.html">Welpen</a></th>
+								<th>28,-</th>
+								<th>3x 17,50,-</th>
+								<th>125,-</th>
+								<th></th>
+							</tr>
+							<tr>
+								<th id="groepnaam"><a id="groepnaam" href="bevers.html">Paradijsvogels</a></th>
+								<th>40,-</th>
+								<th>2x 10,-</th>
+								<th>nvt</th>
+								<th></th>
+							</tr>
+							<tr>
+								<th id="groepnaam"><a id="groepnaam" href="verkenners.html">Zeeverkenners</a></th>
+								<th>40,-</th>
+								<th>3x 10,- 1x 40,-</th>
+								<th>120,-</th>
+								<th>Zwemvest (25,-) en waterdichte tas (10,-)</th>
+							</tr>
+							<tr>
+								<th id="groepnaam"><a id="groepnaam" href="verkenners.html">Landverkenners</a></th>
+								<th>40,-</th>
+								<th>3x 17,50,-</th>
+								<th>140,-</th>
+								<th></th>
+							</tr>
+							<tr>
+								<th id="groepnaam"><a id="groepnaam" href="verkenners.html">Luchtverkenners</a></th>
+								<th>40,-</th>
+								<th>3x 17,50,-</th>
+								<th>125,-</th>
+								<th>Zweefvliegen(25,-)</th>
+							</tr>
+							<tr>
+								<th id="groepnaam"><a id="groepnaam" href="explorers.html">Explorers</a></th>
+								<th>40,-</th>
+								<th>3x 15,-</th>
+								<th>125,-</th>
+								<th></th>
+							</tr>
+						
+						</table>
+					</section>
+					<br><br>
+					<font size="+4">VOG</font>
+					<footer>
+						<br>
+						<br>
+						Al onze vrijwilligers zijn in het bezit van een VOG (Verklaring Omtrent Gedrag).
+						<br>
+						<br>
+					</footer>
+			</div>
+		
+		</div>
+		
+
+	</body>
+</html>
+			

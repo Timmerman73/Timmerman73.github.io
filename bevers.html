@@ -1,0 +1,138 @@
+<!DOCTYPE html> 
+<html lang="nl">
+	<head>
+		<link rel="stylesheet" type="text/css" href="Styles/index.css">
+		<script src="Js/StickNavbar.js"></script>
+		<title> Scouting Woerden </title>
+		<link rel="icon" href="images/logo-green.png">
+	</head>
+	<body>
+		<!Nagivatiesysteem>
+
+		<div>
+		<!afbeeldingen boven navbar>
+			<img src="images/header/1.jpg" class="headerimg" align="center">
+			<img src="images/header/2.jpg" class="headerimg" align="center">
+			<img src="images/header/3.jpg" class="headerimg" align="center">
+			<img src="images/header/4.jpg" class="headerimg" align="center">
+			<img src="images/header/5.jpg" class="headerimg" align="center">
+		</div>
+			<script> //De code om de header te laten werken.
+				var myIndex = 0;
+				headerfunction();
+
+				function headerfunction() {
+				  var i;
+				  var x = document.getElementsByClassName("headerimg");
+				  for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";  
+				  }
+				  myIndex++;
+				  if (myIndex > x.length) {myIndex = 1}    
+				  x[myIndex-1].style.display = "block";  
+				  setTimeout(headerfunction, 5000); // verander afbeelding elke 5 seconden
+				}
+			</script>
+			<div id="navbar" >
+			<img src="images/logo.png" height=45 width=45 align="left" id="pad5">
+				<a href="index.html">Home</a>
+				<!navigatieknoppen>
+				<div class="dropdown">
+					<button class="dropbtn">Spelonderdelen 
+					<i class="fa fa-caret-down"></i>
+					</button>
+						<div class="dropdown-content">
+						  <a href="bevers.html">Bevers/Paradijsvogels</a>
+						  <a href="welpen.html">Welpen/Esta's/Dolfijnen</a>
+						  <a href="verkenners.html">Verkenners</a>
+						  <a href="explorers.html">Explorers</a>
+						</div>
+				</div> 
+				<div class="dropdown">
+					<button class="dropbtn">Algemeen 
+					<i class="fa fa-caret-down"></i>
+					</button>
+						<div class="dropdown-content">
+						  <a href="plaatsingkosten.html">Plaatsing/Kosten</a>
+						  <a href="contact.html">Contact</a>
+						</div>
+				</div> 
+				<p align="right" id="naam"> Tim van der Lee</p>
+			</div>
+		<!Einde navigatiesysteem>
+		<!Hoofdelement>
+			<div id="Main">
+				<div id="pad10">
+					<section>
+					<!info bevers>
+						<header id="title">Bevers (5 tot 7 jaar)</header> <br>
+						<b>Wat voor activiteiten doen de Bevers?</b> <br>
+						De Bevers spelen bal-, tik- en renspelen op het grasveld en het plein. Ze zijn daarnaast creatief bezig. Ze kunnen hun creativiteit bijvoorbeeld kwijt in het maken feestmutsen of paashazen of in het versieren van iets lekkers om dat daarna gezellig samen op te smullen. <br>
+						De kinderen gaan ook twee paar keer per jaar op weekendkamp. De kinderen die willen mogen dan een nachtje slapen in ons eigen onderkomen. En er is een zomerkamp (1 of 2 overnachtingen buiten Woerden).<br>
+						Bij alle activiteiten geldt dat meedoen belangrijk is dan presteren. We proberen samenspel en samenwerking te stimuleren.
+						<br>
+						<br>
+						<b>Waar en hoe laat vinden de opkomsten plaats?</b> <br>
+						De opkomsten vinden vrijwel altijd plaats op de scoutingboerderij. <br> <br>
+						<table id="kostentabel">
+							<tr id="tablehead">
+								<th>Naam groep</th>
+								<th>Dag</th>
+								<th>Tijden</th>
+							</tr>
+							<tr>
+								<th>Ochtend bevers</th>
+								<th>zaterdagochtend</th>
+								<th>9:30 - 11:00</th>
+							</tr>
+							<tr>
+								<th>Middag bevers</th>
+								<th>zaterdagmiddag
+								<th>13:15 - 14:45</th>
+							</tr>
+						</table>
+						<br><br>
+						<b>Hoe groot is de groep waarin mijn kind komt?</b> <br>
+						Er zitten circa 20-25 kinderen in een groep, zowel jongens als meisjes. <br><br>
+						<b> Wat zijn de kosten?</b> <br>
+						<a id="groepnaam" href="plaatsingkosten.html#kosten">Zie kosten</a>
+					</section>
+					<br>
+					<br>
+					<br>
+					<section>
+					<!info paradijsvogels>
+						<header id="title">Paradijsvogels (7 tot 13 jaar)</header><br><br>
+						<b> Wat zijn Paradijsvogels?</b> <br>
+						De Paradijsvogels vormen een speltak voor kinderen in de leeftijd van 7 tot 13 jaar, die veel meer zorg vragen door b.v. een verstandelijke beperking of een gedragsprobleem, 
+						waardoor het moeilijk is om in een reguliere speltak mee te draaien. 
+						De leden komen uit het speciaal onderwijs op het niveau van (Z)MLK of uit het reguliere onderwijs met ‘een rugzakje’. 
+						Een kleine lichamelijke handicap daarbij is geen probleem, 
+						maar het gebouw en de omgeving zijn niet aangepast voor een rolstoel of rollator. 
+						Voor kinderen ouder dan 13 jaar is er geen speciale vervolggroep.
+						<br><br>
+						<b>Wat voor activiteiten doen de Paradijsvogels?</b> <br>
+						De Paradijsvogels beleven iedere week spannende avonturen in de jungle en doen activiteiten als: <br>
+						• Ontdekken <br>
+						• Spelen in en met de natuur <br>
+						• Sport en spel <br>
+						• Creativiteit <br>
+						• Typische scoutingdingen zoals kampvuur, koken en knopen. <br> <br>
+						Minimaal 1 keer per jaar is er een weekendkamp (max 24 uur).<br><br>
+						<b>Waar en hoe laat vinden de opkomstenplaats?</b> <br>
+						De opkomsten vinden vrijwel altijd plaats op de scoutingboerderij. De opkomst is op woensdagavond van 18.30 - 20.00 uur. <br><br>
+						
+						<b>Hoe groot is de groep waarin mijn kind komt?<b> <br>
+						De Paradijsvogels draaien in een klein groepje van maximaal 15 kinderen, met meer leiding dan in een reguliere speltak. <br><br>
+						
+						<b> Wat zijn de kosten?</b> <br>
+						<a id="groepnaam" href="plaatsingkosten.html#kosten">Zie kosten</a>
+						<br><br><br>
+												
+					</section>
+				</div>
+			</div>
+
+	</body>
+</html>
+			

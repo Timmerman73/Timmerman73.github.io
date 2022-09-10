@@ -1,0 +1,169 @@
+<!DOCTYPE html> 
+<html lang="nl">
+	<head>
+		<link rel="stylesheet" type="text/css" href="Styles/index.css">
+		<script src="Js/StickNavbar.js"></script>
+		<title> Scouting Woerden </title>
+		<link rel="icon" href="images/logo-green.png">
+	</head>
+	<body>
+		<!Nagivatiesysteem>
+
+		<div>
+		<!afbeeldingen boven navbar>
+			<img src="images/header/1.jpg" class="headerimg" align="center">
+			<img src="images/header/2.jpg" class="headerimg" align="center">
+			<img src="images/header/3.jpg" class="headerimg" align="center">
+			<img src="images/header/4.jpg" class="headerimg" align="center">
+			<img src="images/header/5.jpg" class="headerimg" align="center">
+		</div>
+			<script> //De code om de header te laten werken.
+				var myIndex = 0;
+				headerfunction();
+
+				function headerfunction() {
+				  var i;
+				  var x = document.getElementsByClassName("headerimg");
+				  for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";  
+				  }
+				  myIndex++;
+				  if (myIndex > x.length) {myIndex = 1}    
+				  x[myIndex-1].style.display = "block";  
+				  setTimeout(headerfunction, 5000); // verander afbeelding elke 5 seconden
+				}
+			</script>
+			<div id="navbar" >
+			<img src="images/logo.png" height=45 width=45 align="left" id="pad5">
+				<a href="index.html">Home</a>
+				<!navigatieknoppen>
+				<div class="dropdown">
+					<button class="dropbtn">Spelonderdelen 
+					<i class="fa fa-caret-down"></i>
+					</button>
+						<div class="dropdown-content">
+						  <a href="bevers.html">Bevers/Paradijsvogels</a>
+						  <a href="welpen.html">Welpen/Esta's/Dolfijnen</a>
+						  <a href="verkenners.html">Verkenners</a>
+						  <a href="explorers.html">Explorers</a>
+						</div>
+				</div> 
+				<div class="dropdown">
+					<button class="dropbtn">Algemeen 
+					<i class="fa fa-caret-down"></i>
+					</button>
+						<div class="dropdown-content">
+						  <a href="plaatsingkosten.html">Plaatsing/Kosten</a>
+						  <a href="contact.html">Contact</a>
+						</div>
+				</div> 
+				<p align="right" id="naam"> Tim van der Lee</p>
+			</div>
+		<!Einde navigatiesysteem>
+		<!hoofdonderdeel>
+			<div id="Main" align="left">
+				<div id="pad5">
+					<section>
+						<font size="+4">Contact</font> <br>
+						
+						<b> Adres</b>
+						Albert Schweitzergroep <br>
+						Kromwijkerdijk 116 <br>
+						3448HW Woerden <br>
+						<br> <br>
+						<b>Telefoon</b> <br>
+						0348-411500 (Het gebouw zelf)
+						<br><br>
+						<b>E-Mail</b> <br>
+						<a id="groepnaam" href="mailto:info@scowo.nl"><b>info@scowo.nl</b></a>
+						<br><br>
+						<b>Contactpersonen</b> <br>
+						<br>
+						<!tabel met contactinfo>
+						<table id="kostentabel">
+							<tr id="tablehead">
+								<th>Positie</th>
+								<th>Naam</th>
+								<th>Telefoonnummer</th>
+								<th>E-mail</th>
+							</tr>
+							<tr>
+								<th>Voorzitter</th>
+								<th>Martijn Koelink</th>
+								<th>0348-434908</th>
+								<th> <a id="groepnaam" href="mailto:voorzitter@scowo.nl">voorzitter@scowo.nl</a>
+							</tr>
+							<tr>
+								<th>Penningmeester</th>
+								<th>Dirk Willem Huizinga</th>
+								<th>0348-481782</th>
+								<th> <a id="groepnaam" href="mailto:dw.scowo@ziggo.nl">dw.scowo@ziggo.nl</a>
+							</tr>
+							<tr>
+								<th>Secretaris</th>
+								<th>Jolanda Goes</th>
+								<th>0348-422838</th>
+								<th> <a id="groepnaam" href="mailto:secretaris.scowo@gmail.com">secretaris.scowo@gmail.com</a>
+							</tr>
+							<tr>
+								<th>Groepsbegeleider</th>
+								<th>Erik Mars</th>
+								<th></th>
+								<th> <a id="groepnaam" href="mailto:erik.mars@ziggo.nl">erik.mars@ziggo.nl</a>
+							</tr>
+							<tr>
+								<th>Locatiebeheer</th>
+								<th>Ad Borsboom</th>
+								<th>0348-411161</th>
+								<th> <a id="groepnaam" href="mailto:ad.borsboom@scowo.nl">ad.borsboom@scowo.nl</a>
+							</tr>
+							<tr>
+								<th>Vertrouwenspersoon</th>
+								<th>Joke van Aarst - Volkers</th>
+								<th></th>
+								<th> <a id="groepnaam" href="mailto:joke.volkers@scowo.nl">joke.volkers@scowo.nl</a>
+							</tr>
+							<tr>
+								<th>Vertrouwenspersoon</th>
+								<th>Gert van Rootselaar</th>
+								<th>0348-420634</th>
+								<th> <a id="groepnaam" href="mailto:gert.van.rootselaar@scowo.nl">gert.van.rootselaar@scowo.nl</a>
+							</tr>
+							<tr>
+								<th>Plaatsingslijst</th>
+								<th>Barbara van Dijl</th>
+								<th>0348-421421</th>
+								<th> <a id="groepnaam" href="mailto:plaatsingen@scowo.nl">plaatsingen@scowo.nl</a>
+							</tr>
+							<tr>
+								<th>Verhuur</th>
+								<th>Gert van Rootselaar</th>
+								<th>nvt</th>
+								<th> <a id="groepnaam" href="mailto:verhuur@scowo.nl">verhuur@scowo.nl</a>
+							</tr>
+							
+						</table>
+						<br><br><br>
+						<b>Scouting Nederland</b> <br>
+						<b>Adres:</b> <br>
+						<a id="groepnaam" href="https://goo.gl/maps/iyhypRoETRfgDhA56">Larikslaan 5 </a><br>
+						<a id="groepnaam" href="https://goo.gl/maps/iyhypRoETRfgDhA56">3833 AM Leusden </a><br>
+						<b>Tel:</b>033 - 496 09 11 <br>
+						<b>Fax:</b>033 - 496 02 22 <br>
+						<b>Website:</b> <a id="groepnaam" href="https://www.scouting.nl/">www.scouting.nl</a> <br>
+						<b>E-Mail:</b> <a id="groepnaam" href="mailto:info@scouting.nl">info@scouting.nl</a>
+						
+						
+					
+					</section>
+				</div>
+			</div>
+			<!google maps embed>
+			<div id="MapEmbed">
+				<font size="+4" id="centeralign">  Kaart en Routebeschrijving</font>
+				<div class="mapouter"><div class="gmap_canvas"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2452.319581915152!2d4.890047315603804!3d52.0739119797322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c679ebdf13acc9%3A0xbc360b46c5de5299!2sAlbert+Schweitzergroep%E2%80%8E!5e0!3m2!1sen!2sus!4v1560928644353!5m2!1sen!2sus" width="600" height="500" frameborder="0" style="border:0" id="gmap_canvas" id="b-radius" allowfullscreen></iframe> 
+			</div>
+	
+	</body>
+</html>
+			

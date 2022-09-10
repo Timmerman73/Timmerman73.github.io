@@ -1,0 +1,146 @@
+<!DOCTYPE html> 
+<html lang="nl">
+	<head>
+		<link rel="stylesheet" type="text/css" href="Styles/index.css">
+		<script src="Js/StickNavbar.js"></script>
+		<title> Scouting Woerden </title>
+		<link rel="icon" href="images/logo-green.png">
+	</head>
+	<body>
+		<!Nagivatiesysteem>
+
+		<div>
+		<!afbeeldingen boven navbar>
+			<img src="images/header/1.jpg" class="headerimg" align="center">
+			<img src="images/header/2.jpg" class="headerimg" align="center">
+			<img src="images/header/3.jpg" class="headerimg" align="center">
+			<img src="images/header/4.jpg" class="headerimg" align="center">
+			<img src="images/header/5.jpg" class="headerimg" align="center">
+		</div>
+			<script> //De code om de header te laten werken.
+				var myIndex = 0;
+				headerfunction();
+
+				function headerfunction() {
+				  var i;
+				  var x = document.getElementsByClassName("headerimg");
+				  for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";  
+				  }
+				  myIndex++;
+				  if (myIndex > x.length) {myIndex = 1}    
+				  x[myIndex-1].style.display = "block";  
+				  setTimeout(headerfunction, 5000); // verander afbeelding elke 5 seconden
+				}
+			</script>
+			<div id="navbar" >
+			<img src="images/logo.png" height=45 width=45 align="left" id="pad5">
+				<a href="index.html">Home</a>
+				<!navigatieknoppen>
+				<div class="dropdown">
+					<button class="dropbtn">Spelonderdelen 
+					<i class="fa fa-caret-down"></i>
+					</button>
+						<div class="dropdown-content">
+						  <a href="bevers.html">Bevers/Paradijsvogels</a>
+						  <a href="welpen.html">Welpen/Esta's/Dolfijnen</a>
+						  <a href="verkenners.html">Verkenners</a>
+						  <a href="explorers.html">Explorers</a>
+						</div>
+				</div> 
+				<div class="dropdown">
+					<button class="dropbtn">Algemeen 
+					<i class="fa fa-caret-down"></i>
+					</button>
+						<div class="dropdown-content">
+						  <a href="plaatsingkosten.html">Plaatsing/Kosten</a>
+						  <a href="contact.html">Contact</a>
+						</div>
+				</div> 
+				<p align="right" id="naam"> Tim van der Lee</p>
+			</div>
+		<!Einde navigatiesysteem>
+		<!hoofdelement>
+			<div id="Main">
+				<div id="pad10">
+					<section>
+						<header id="title">Verkenners (11 tot 15 (of 18) jaar)</header> 
+						<br><br>
+						<b>Wat is het verschil tussen de verschillende Verkenner onderdelen? </b><br>
+						De Dinsdag-, Donderdag-, Lucht -en Zaterdagmiddag verkenners zijn land groepen en doen hun activiteiten vooral op het land. 
+						De activiteiten vertonen dan ook veel overeenkomsten. 
+						De Luchtverkenners onderscheiden zich wel van de andere groepen door af en toe lucht gerelateerde activiteiten te doen. 
+						Het enige verschil tussen de verschillende onderdelen wordt gemaakt door de leidingteams. 
+						Elk onderdeel heeft zijn eigen leidingteam en die bepaalt de werkwijze en (deels de) sfeer in een groep. 
+						De Zeeverkenners verschillen qua programma wel veel van de andere vier verkenners onderdelen. 
+						Het is namelijk een watergroep en hun opkomsten staan dan ook geheel in het teken van varen. 
+						<br><br>
+						<b>Wat voor activiteiten doen de onderdelen? </b> <br>
+						De vier landverkenners groepen zijn veel buiten te vinden waar ze diverse spelen doen en verschillende (scouting) vaardigheden oefenen.
+						Te denken valt aan: koken, kampvuur maken, EHBO, pionieren, vlotten bouwen, vissen met zelfgemaakte hengels, (gps) tochten lopen, kamptechnieken en een filmavonden. 
+						Daarnaast worden er balspelen gedaan of een spel in onze jungle.
+						Een keer per jaar wordt er gezeild en staat er bomen knotten op het programma. 
+						De luchtverkenners gaan daarnaast een keer per jaar gaan vliegen met de kinderen in b.v een zweefvliegtuig
+						. Meerdere malen per jaar proberen ze creatief bezig te zijn in het thema lucht, door bijvoorbeeld een vlieger, boomrang of luchtballon te maken. 
+						De Zeeverkenners besteden in het zomerseizoen het merendeel van hun tijd aan het zeilen op de Nieuwkoopse plassen, waar ze eerst op de fiets naar toe gaan. 
+						De zeil en andere vaartechnieken worden geleerd, maar er worden ook (water) spelen gedaan. 
+						In de wintermaanden wordt per groepje de eigen boot opnieuw geverfd. Dit wordt afgewisseld met een actief spel en patat eten.
+						<br><br>
+						Bij alle activiteiten geldt dat meedoen belangrijk is dan presteren. 
+						We proberen samenspel en samenwerking te stimuleren. 
+						Hoe ouder ze worden hoe meer zelfstandigheid we van ze vragen. 
+						<br><br>
+						Alle onderdelen hebben zo’n drie weekendkampjes per jaar en een zomerkamp. 
+						Op de kampen kunnen de leden in de praktijk brengen wat ze tijdens de opkomsten hebben geoefend, b.v zelf koken of een zeilwedstrijd tegen een andere groep.
+						<br><br>
+						<b>Waar en hoe laat vinden de opkomsten plaats? </b>
+						De opkomsten vinden over het algemeen plaats op de scoutingboerderij. <br>
+						De Zeeverkenners zijn in de winter ook op de boerderij, maar zomers gaan ze naar de Nieuwkoopse plassen om daar te zeilen. 
+						<br><br>
+						<b>Tijden:</b>
+						<!tijdentabel>
+							<table id="kostentabel">
+								<tr id="tablehead">
+									<th>Naam groep</th>
+									<th>Dag</th>
+									<th>Tijden</th>
+								</tr>
+								<tr>
+									<th>Dinsdagverkenners</th>
+									<th>dinsdagavond</th>
+									<th>19:00 - 21:00</th>
+								</tr>
+								<tr>
+									<th>Donderdagverkenners</th>
+									<th>donderdag</th>
+									<th>19:00 - 21:00</th>
+								</tr>
+								<tr>
+									<th>Zeeverkenners</th>
+									<th>zaterdag</th>
+									<th>Zomer 09:00 - 17:00 Winter 09:00 - 12:00</th>
+								</tr>
+								<tr>
+									<th>Luchtverkenners</th>
+									<th>zaterdagochtend</th>
+									<th>10:00 - 12:00</th>
+								</tr>
+								<tr>
+									<th>Zaterdagmiddagverkenners</th>
+									<th>zaterdagmiddag</th>
+									<th>15:00 - 17:00</th>
+								</tr>
+							</table>
+							<br><br>
+							<b>Hoe groot is de groep waarin mijn kind komt? </b><br>
+							Er zitten circa 20-30 kinderen in een groep, zowel jongens als meisjes. <br>
+							De land en lucht onderdelen zijn tot 15 jaar. De zeeverkenners mogen tot hun 18e blijven.
+							<br><br>
+							<b> Wat zijn de kosten?</b> <br>
+							<a id="groepnaam" href="plaatsingkosten.html#kosten">Zie kosten</a>
+					</section>
+				</div>
+			</div>
+	</body>
+</html>
+			
